@@ -1,0 +1,61 @@
+{
+  "name": "legacy-heroku-app",
+  "description": "",  
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "dependencies": {
+    "bluebird": "^2.11.0",
+    "body-parser": "^1.18.2",
+    "bufferutil": "^4.0.1",
+    "clone": "^1.0.2",
+    "cluster-node-cache": "^0.1.4",
+    "colors": "^1.1.2",
+    "compression": "^1.6.2",
+    "continuation-local-storage": "^3.1.7",
+    "cors": "^2.8.1",
+    "date-fns": "^1.30.1",
+    "debug": "^2.2.0",
+    "errorhandler": "^1.4.3",
+    "express": "^4.14.0",
+    "lodash": "^4.17.4",
+    "loopback": "^2.39.0",
+    "loopback-boot": "^2.27.0",
+    "loopback-promisify": "^0.2.0",
+    "moment": "^2.21.0",
+    "newrelic": "^4.13.0",
+    "node-cache": "^3.2.1",
+    "pg": "^4.5.6",
+    "pg-bluebird": "^1.0.8",
+    "properties": "^1.2.1",
+    "redis": "^2.8.0",
+    "request": "^2.74.0",
+    "request-promise": "^1.0.2",
+    "serve-favicon": "^2.3.0",
+    "supports-color": "^5.1.0",
+    "throng": "^4.0.0",
+    "underscore": "^1.8.3",
+    "winston": "^1.1.2"
+  },
+  "optionalDependencies": {
+    "loopback-explorer": "^1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-mocha": "^4.12.1",
+    "eslint-plugin-node": "^6.0.1",
+    "istanbul": "^0.4.2",
+    "jshint": "^2.5.6",
+    "mocha": "^2.5.3",
+    "proxyquire": "^2.0.0",
+    "sinon": "^7.2.2",
+    "supertest": "^1.2.0"
+  }
+}
